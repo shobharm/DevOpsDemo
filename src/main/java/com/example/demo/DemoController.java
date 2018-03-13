@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
 
 	
-	@RequestMapping("/")
+	@RequestMapping("/DevOpsDemo")
 	public String display() {
 		return "Succcessssss :P:P:P";
 	}
