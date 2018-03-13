@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
 
 	
-	@RequestMapping(value="/DevOpsDemo/", method=RequestMethod.GET)
+	@RequestMapping(value="/", method=RequestMethod.GET)
 	public String display() {
 		return "Succcessssss :P:P:P";
 	}
