@@ -15,4 +15,10 @@ public class DemoController {
 	}
 	
 	
+	@RequestMapping(value="/DevOpsDemo", method=RequestMethod.GET)
+	public String displayHTML() {
+		System.out.println("Inside HTML method");
+		return "Index";
+	}
+	
 }
